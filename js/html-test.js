@@ -18,7 +18,7 @@ var questions = [
   },
   {
     "question": "Which of the following statement is true",
-    "option1": "CSS is a markup language",
+    "option1": "HTML is not a markup language",
     "option2": "HTML is used to build structure of web pages",
     "option3": "JavaScript is a styling language",
     "option4": "CSS is a programming language",
