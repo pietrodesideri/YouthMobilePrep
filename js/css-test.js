@@ -57,12 +57,12 @@ var questions = [
     "answer": "1"
   },
   {
-    "question": "Which of the following is not a heading tag",
-    "option1": "h4",
-    "option2": "h6",
-    "option3": "h2",
-    "option4": "h7",
-    "answer": "4"
+    "question": "Embedded CSS is written in..",
+    "option1": "the body tag",
+    "option2": "head tag",
+    "option3": "title tag",
+    "option4": "none of these",
+    "answer": "2"
   },
   {
     "question": "What is JavaScript?",
