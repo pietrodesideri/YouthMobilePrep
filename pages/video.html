@@ -1,12 +1,59 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Youthmobile Prep</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/collapsible.css">
+  <link rel="stylesheet" href="../css/css-lesson.css">
 </head>
 <body>
-	<p>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/BU2rjqA_8Y4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-	</p>
+  <nav class="navbar">
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+          <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+          <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+          <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+        </svg>
+      </a>
+    </span>
+    <h1><span>YOUTH</span><span>MOBILE</span>    <span>PREP</span></h1>
+  </nav>
+  <!-- side-nav -->
+  <div id="side-menu" class="side-nav">
+    <a href="../index.html"><img src="../images/home-menu.png"> <span>Home</span></a>
+    <hr>
+    <a href="about.html"><img src="../images/about-menu.png"> <span>About</span></a>
+    <hr>
+    <a href="html-lesson.html"><img src="../images/html-menu.png"> <span>Learn HTML</span></a>
+    <hr>
+    <a href="css-lesson.html"><img src="../images/css3-menu.png"> <span>Learn CSS</span></a>
+    <hr>
+    <a href="javascript-lesson.html"><img src="../images/javascript-menu.png"> <span>JavaScript Lesson</span></a>
+    <hr>
+    <a href="quiz-app.html"><img src="../images/test-menu.png"> <span>Take Test</span></a>
+    <hr>
+    <a href="faqs.html"><img src="../images/faqs-menu.png"> <span>FAQs</span></a>
+    <hr>
+  </div>
 
+  <div id="main" class="btn-close" onclick="closeSlideMenu()">
+    <h2>Video</h2>
+    <div class="css-tut">
+      
+    
+    <iframe width="620" height="450" 
+src="https://www.youtube.com/embed/tgbNymZ7vqY" style="margin-right: 30px">
+    </iframe>
+ <iframe width="620" height="450" 
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    </iframe>
+    </div></div>
+  <script src="../js/main.js"></script>
+  <script src="../js/collapsible.js"></script>
 </body>
 </html>
