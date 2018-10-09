@@ -1,11 +1,11 @@
 var questions = [
   {
-    "question": "Hypertext Makrup Language is also called",
-    "option1": "HML",
-    "option2": "CSS",
-    "option3": "HTML",
-    "option4": "None of the Above",
-    "answer": "3"
+    "question": "single line comments are written as..",
+    "option1": "//",
+    "option2": "/",
+    "option3": "///",
+    "option4": "##",
+    "answer": "1"
   },
   {
     "question": "Choose the correct statement",
