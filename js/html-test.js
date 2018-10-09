@@ -73,11 +73,11 @@ var questions = [
     "answer": "3"
   },
   {
-    "question": "JavaScript is also known as?",
-    "option1": "EdmaScript",
-    "option2": "EmaScript",
-    "option3": "Escript",
-    "option4": "EcmaScript",
+    "question": "The ol tag is also called",
+    "option1": "over list",
+    "option2": "oval list",
+    "option3": "other list",
+    "option4": "ordered list",
     "answer": "4"
   },
   {
