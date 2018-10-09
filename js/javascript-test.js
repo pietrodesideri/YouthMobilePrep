@@ -49,20 +49,20 @@ var questions = [
     "answer": "1"
   },
   {
-    "question": "HTML pages are linked using one of the following",
-    "option1": "anchor/a tag",
-    "option2": "image tag",
-    "option3": "div tag",
-    "option4": "span tag",
-    "answer": "1"
+    "question": "Which of the following variable takes precedence if variable names are the same",
+    "option1": "global variable",
+    "option2": "local variable",
+    "option3": "both of the above",
+    "option4": "none of the above",
+    "answer": "2"
   },
   {
-    "question": "Which of the following is not a heading tag",
-    "option1": "h4",
-    "option2": "h6",
-    "option3": "h2",
-    "option4": "h7",
-    "answer": "4"
+    "question": "Javscript objects have...",
+    "option1": "properties",
+    "option2": "elements",
+    "option3": "child-elements",
+    "option4": "child-properties",
+    "answer": "1"
   },
   {
     "question": "What is JavaScript?",
@@ -81,11 +81,11 @@ var questions = [
     "answer": "4"
   },
   {
-    "question": "Which of the following is true of HTML attributes?",
-    "option1": "provides link to CSS files",
-    "option2": "Link HTML files to JavaScript files",
-    "option3": "Provides additional information about HTML elements",
-    "option4": "Provides additional information about HTML and CSS",
+    "question": "Variables are declared using the keyword called...",
+    "option1": "now",
+    "option2": "then",
+    "option3": "var",
+    "option4": "this",
     "answer": "3"
   }
 ]
