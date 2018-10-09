@@ -41,7 +41,7 @@ function loadNextQuestion(){
   if(currentQuestion == totalQuestions){
     container.style.display = 'none';
     displayResult.style.display = '';
-    displayResult.textContent = 'Your score is: ' + score; 
+    displayResult.textContent = 'Your score is: ' + score + '/100'; 
     return;
   }
   loadQuestion(currentQuestion);
