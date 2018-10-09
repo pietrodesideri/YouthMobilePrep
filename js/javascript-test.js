@@ -8,12 +8,12 @@ var questions = [
     "answer": "3"
   },
   {
-    "question": "CSS is an acronym for..",
-    "option1": "Case Style Sheet",
-    "option2": "Cascading Style Sheet",
-    "option3": "Casding Style Sheet",
-    "option4": "Casett Style Sheet",
-    "answer": "2"
+    "question": "Choose the correct statement",
+    "option1": "Javascript is case sensitive",
+    "option2": "javascript is not case sensitive",
+    "option3": "javascript is same as java",
+    "option4": "javascript is another name for HTML",
+    "answer": "1"
 
   },
   {
