@@ -1,10 +1,10 @@
 var questions = [
   {
-    "question": "Hypertext Makrup Language is also called",
-    "option1": "HML",
-    "option2": "CSS",
-    "option3": "HTML",
-    "option4": "None of the Above",
+    "question": "In how many ways do we write CSS",
+    "option1": "one",
+    "option2": "four",
+    "option3": "three",
+    "option4": "five",
     "answer": "3"
   },
   {
@@ -84,8 +84,8 @@ var questions = [
     "question": "What is the correct syntax for refering to an external style sheet",
     "option1": "<stylesheet>mystyle.css</stylesheet>",
     "option2": "<stylesheet src='mystyle.css'>",
-    "option3": "Provides additional information about HTML elements",
-    "option4": "Provides additional information about HTML and CSS",
+    "option3": "<link rel='stylesheet' type='text/css' href='mystyle.css'",
+    "option4": "none of these",
     "answer": "3"
   }
 ]
