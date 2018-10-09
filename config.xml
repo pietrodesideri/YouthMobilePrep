@@ -9,6 +9,7 @@
 	<description>
 		Help people aspiring to learn the basics of HTML, CSS and JavaScript for Mobile/Web development.		
 	</description>
+	<access origin="*" />
 	<author href="" email="hamzajirah@gmail.com">
 		Jirah Hamza Ibrahim
 	</author>
