@@ -26,11 +26,11 @@ var questions = [
   },
   {
     "question": "All of the following are true except..",
-    "option1": "Inline-styling",
-    "option2": "Embedded styling",
-    "option3": "External styling",
-    "option4": "Intra-styling",
-    "answer": "4"
+    "option1": "Inline-javascript",
+    "option2": "Embedded javascript",
+    "option3": "External javascript",
+    "option4": "javascript is a programming language",
+    "answer": "1"
   },
   {
     "question": "Javascript data types include the following except",
