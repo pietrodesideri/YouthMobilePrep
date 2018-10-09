@@ -28,9 +28,9 @@ var questions = [
     "question": "All of the following are true except..",
     "option1": "html attributes appear in the start tag",
     "option2": "html attributes are in key/value pairs",
-    "option3": "E",
+    "option3": "the title tag is not an html element",
     "option4": "Intra-styling",
-    "answer": "4"
+    "answer": "3"
   },
   {
     "question": "Javascript data types include the following except",
