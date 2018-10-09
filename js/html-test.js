@@ -29,16 +29,16 @@ var questions = [
     "option1": "html attributes appear in the start tag",
     "option2": "html attributes are in key/value pairs",
     "option3": "the title tag is not an html element",
-    "option4": "Intra-styling",
+    "option4": "the anchor tag links html documents",
     "answer": "3"
   },
   {
-    "question": "Javascript data types include the following except",
-    "option1": "String",
-    "option2": "Boolean",
-    "option3": "Number",
-    "option4": "Alphabet",
-    "answer": "4"
+    "question": "HTML comments are important because...",
+    "option1": "they guide developers",
+    "option2": "only users see the comments",
+    "option3": "they are displayed in the browser",
+    "option4": "none of the above",
+    "answer": "1"
   },
   {
     "question": "In CSS, an ID is called using..",
