@@ -79,13 +79,5 @@ var questions = [
     "option3": "calling the element",
     "option4": "undoing the element",
     "answer": "4"
-  },
-  {
-    "question": "What is the correct syntax for refering to an external style sheet",
-    "option1": "<stylesheet>mystyle.css</stylesheet>",
-    "option2": "<stylesheet src='mystyle.css'>",
-    "option3": "<link rel='stylesheet' type='text/css' href='mystyle.css'",
-    "option4": "none of these",
-    "answer": "3"
   }
 ]
