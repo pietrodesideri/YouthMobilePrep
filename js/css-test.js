@@ -49,11 +49,11 @@ var questions = [
     "answer": "1"
   },
   {
-    "question": "HTML pages are linked using one of the following",
-    "option1": "anchor/a tag",
-    "option2": "image tag",
-    "option3": "div tag",
-    "option4": "span tag",
+    "question": "Which of the following is a CSS selector",
+    "option1": "selecting by tag name",
+    "option2": "list selector",
+    "option3": "null selector",
+    "option4": "undefined selector",
     "answer": "1"
   },
   {
@@ -73,11 +73,11 @@ var questions = [
     "answer": "3"
   },
   {
-    "question": "JavaScript is also known as?",
-    "option1": "EdmaScript",
-    "option2": "EmaScript",
-    "option3": "Escript",
-    "option4": "EcmaScript",
+    "question": "All the following are procedures for styling html elemenets except",
+    "option1": "creating an element",
+    "option2": "defining an element",
+    "option3": "calling the element",
+    "option4": "undoing the element",
     "answer": "4"
   },
   {
