@@ -83,7 +83,7 @@ var questions = [
   {
     "question": "What is the correct syntax for refering to an external style sheet",
     "option1": "<stylesheet>mystyle.css</stylesheet>",
-    "option2": "Link HTML files to JavaScript files",
+    "option2": "<stylesheet src='mystyle.css'>",
     "option3": "Provides additional information about HTML elements",
     "option4": "Provides additional information about HTML and CSS",
     "answer": "3"
