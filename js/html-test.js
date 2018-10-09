@@ -41,7 +41,7 @@ var questions = [
     "answer": "1"
   },
   {
-    "question": "Which of the following is a text formating tags",
+    "question": "Which of the following is a text formating tag",
     "option1": "em",
     "option2": "p",
     "option3": "div",
@@ -65,11 +65,11 @@ var questions = [
     "answer": "4"
   },
   {
-    "question": "What is JavaScript?",
-    "option1": "It is a markup language",
-    "option2": "It is styling language",
-    "option3": "It is a programming language",
-    "option4": "It is also called Java",
+    "question": "Which of the following tags is not a component of the html table",
+    "option1": "table",
+    "option2": "th",
+    "option3": "tc",
+    "option4": "td",
     "answer": "3"
   },
   {
