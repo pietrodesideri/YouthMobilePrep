@@ -14,7 +14,6 @@ var questions = [
     "option3": "Casding Style Sheet",
     "option4": "Casett Style Sheet",
     "answer": "2"
-
   },
   {
     "question": "Which of the following statement is true",
