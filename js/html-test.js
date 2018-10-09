@@ -79,13 +79,5 @@ var questions = [
     "option3": "other list",
     "option4": "ordered list",
     "answer": "4"
-  },
-  {
-    "question": "Which of the following is true of HTML attributes?",
-    "option1": "provides link to CSS files",
-    "option2": "Link HTML files to JavaScript files",
-    "option3": "Provides additional information about HTML elements",
-    "option4": "Provides additional information about HTML and CSS",
-    "answer": "3"
   }
 ]
