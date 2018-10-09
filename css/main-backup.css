@@ -1,19 +1,18 @@
 *{
   margin: 0;
   padding: 0;
-
 }
 body {
   font-family: verdana, serif;
-  background-image: url("sky.jpg");
+  background-color: #f4f4f4;
 }
 
 .navbar{
-  background-color: #000;
+  background-color: #3b5998;
   overflow: hidden;
   width: 100%;
   position: fixed;
-  box-shadow: 5px 5px rgb(44, 62, 80);
+  box-shadow: 5px 5px rgb(169, 243, 252);;
 }
 
 .navbar h1 {
@@ -63,7 +62,7 @@ body {
 .side-nav a{
   padding: 5px 10px 5px 20px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 0.7em;
   color: #fff;
   display: block;
   transition: 0.3s;
@@ -77,31 +76,31 @@ body {
   padding-top: 65px;
   padding-bottom: 30px;
   overflow: hidden;
-  background-image: url("sky.jpg");
+  background: linear-gradient(to right, navy, skyblue);
 }
 
 #main h4 {
-  color: rgb(255, 140, 0);
+  color: #fff;
   padding: 10px;
   text-align: center;
 }
 
 #main .html-tut, .css-tut, .javascript-tut {
-  background: rgb(128, 128, 128);
+  background: rgb(76, 168, 198);
   /* background: linear-gradient(to top,blue, rgb(76, 168, 198)); */
   margin: 25px 20px 10px 5px;
   border-radius: 15px;
-  box-shadow: 10px 10px rgb(44, 62, 80);
+  box-shadow: 8px 8px rgb(169, 243, 252);
   padding: 8px; 
 }
 
 #main .html-tut:hover, .css-tut:hover, .javascript-tut:hover{
-  border: 3px solid  rgb(1, 18,24);
+  border: 3px solid  rgb(1, 18, 24);
 }
 
 #main div h5, p {
   text-align: center;
-  color: rgb(255, 140, 0);
+  color: #fff;
   padding: 10px;  
 }
 
