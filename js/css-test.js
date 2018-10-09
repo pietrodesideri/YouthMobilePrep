@@ -70,7 +70,7 @@ var questions = [
     "option2": "It is styling language",
     "option3": "It is a programming language",
     "option4": "It is also called Java",
-    "answer": "3"
+    "answer": "2"
   },
   {
     "question": "All the following are procedures for styling html elemenets except",
