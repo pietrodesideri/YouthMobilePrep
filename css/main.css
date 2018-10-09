@@ -78,6 +78,7 @@ body {
   padding-bottom: 30px;
   overflow: hidden;
   background-image: url("sky.jpg");
+  background-attachment: fixed;
 }
 
 #main h4 {
@@ -108,7 +109,7 @@ body {
 #main div p {
   text-align: justify;
   color: #fff;
-  padding: 10px;  
+  padding: 20px;  
 }
 
 #main div a {
