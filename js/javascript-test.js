@@ -41,8 +41,8 @@ var questions = [
     "answer": "4"
   },
   {
-    "question": "In CSS, an ID is called using..",
-    "option1": "#",
+    "question": "Multi line comment is written as..",
+    "option1": "/**/",
     "option2": "/",
     "option3": "@",
     "option4": "?",
