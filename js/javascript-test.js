@@ -49,14 +49,6 @@ var questions = [
     "answer": "1"
   },
   {
-    "question": "Which of the following variable takes precedence if variable names are the same",
-    "option1": "global variable",
-    "option2": "local variable",
-    "option3": "both of the above",
-    "option4": "none of the above",
-    "answer": "2"
-  },
-  {
     "question": "Javscript objects have...",
     "option1": "properties",
     "option2": "elements",
