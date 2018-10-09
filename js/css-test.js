@@ -81,8 +81,8 @@ var questions = [
     "answer": "4"
   },
   {
-    "question": "Which of the following is true of HTML attributes?",
-    "option1": "provides link to CSS files",
+    "question": "What is the correct syntax for refering to an external style sheet",
+    "option1": "<stylesheet>mystyle.css</stylesheet>",
     "option2": "Link HTML files to JavaScript files",
     "option3": "Provides additional information about HTML elements",
     "option4": "Provides additional information about HTML and CSS",
