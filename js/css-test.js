@@ -33,10 +33,10 @@ var questions = [
     "answer": "4"
   },
   {
-    "question": "Javascript data types include the following except",
-    "option1": "String",
-    "option2": "Boolean",
-    "option3": "Number",
+    "question": "The CSS declaration consist of the following except",
+    "option1": "property",
+    "option2": "selector",
+    "option3": "value",
     "option4": "Alphabet",
     "answer": "4"
   },
