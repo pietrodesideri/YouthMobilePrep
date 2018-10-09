@@ -65,7 +65,7 @@ var questions = [
     "answer": "2"
   },
   {
-    "question": "What is JavaScript?",
+    "question": "Which of the following statement is true about CSS",
     "option1": "It is a markup language",
     "option2": "It is styling language",
     "option3": "It is a programming language",
