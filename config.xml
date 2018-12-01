@@ -7,13 +7,14 @@
 		YouthMobile Prep
 	</name>
 	<description>
-		Help people aspiring to learn the basics of HTML, CSS and JavaScript for Mobile/Web development.		
+		Help anyone aspiring to learn the basics of HTML, CSS and JavaScript for Mobile/Web development.		
 	</description>
 	<author href="" email="hamzajirah@gmail.com">
 		Jirah Hamza Ibrahim
 	</author>
 	<access origin="*" />
 	<platform name="android">
+
 	<splash src="res/screen/android/splash-port-ldpi.png" platform="android" qualifier="ldpi" />
 	<splash src="res/screen/android/splash-port-mdpi.png" platform="android" qualifier="mdpi" />
 	<splash src="res/screen/android/splash-port-hdpi.png" platform="android" qualifier="hdpi" />
