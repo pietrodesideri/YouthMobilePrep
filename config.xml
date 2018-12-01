@@ -1,7 +1,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		id        = "com.unescoabuja.youthmobileprep"
-		versionCode="10"
+		versionCode="1"
 		version   = "1.0.0">
 	<name>
 		YouthMobile Prep
@@ -9,9 +9,10 @@
 	<description>
 		Help people aspiring to learn the basics of HTML, CSS and JavaScript for Mobile/Web development.		
 	</description>
-	<access origin="*" />
 	<author href="" email="hamzajirah@gmail.com">
 		Jirah Hamza Ibrahim
 	</author>
+	<access origin="*" />
+	<platform name="android">
 	<icon src="icon.png" />
 </widget>
