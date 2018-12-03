@@ -14,6 +14,7 @@
 	</author>
 	<access origin="*" />
 	<platform name="android">
+	<plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
 
 	<splash src="res/screen/android/splash-port-ldpi.png" platform="android" qualifier="ldpi" />
 	<splash src="res/screen/android/splash-port-mdpi.png" platform="android" qualifier="mdpi" />
@@ -21,7 +22,6 @@
 	<splash src="res/screen/android/splash-port-xhdpi.png" platform="android" qualifier="xhdpi" />
 	<splash src="res/screen/android/splash-port-xxhdpi.png" platform="android" qualifier="port-xxhdpi" />
 	<splash src="res/screen/android/splash-port-xxxhdpi.png" platform="android" qualifier="xxxhdpi" />
-
 	<splash src="splash.png" />
 
 	<icon src="res/icon/android/ldpi.png" platform="android" qualifier="ldpi" />
