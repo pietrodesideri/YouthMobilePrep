@@ -1,6 +1,6 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
 		xmlns:gap = "http://phonegap.com/ns/1.0"
-		id        = "com.unescoabuja.youthmobileprep"
+		id        = "cf.hamzajirah.youthmobileprep"
 		versionCode="1"
 		version   = "1.0.0">
 	<name>
@@ -14,8 +14,13 @@
 	</author>
 	<access origin="*" />
 	<platform name="android">
-	<plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
 
+	<!-- preference -->
+
+	<!-- plugins -->
+	<plugin name="cordova-plugin-splashscreen" spec="~5.0.2" source="npm"/>
+
+	<!-- splash screen -->
 	<splash src="res/screen/android/splash-port-ldpi.png" platform="android" qualifier="ldpi" />
 	<splash src="res/screen/android/splash-port-mdpi.png" platform="android" qualifier="mdpi" />
 	<splash src="res/screen/android/splash-port-hdpi.png" platform="android" qualifier="hdpi" />
@@ -23,7 +28,9 @@
 	<splash src="res/screen/android/splash-port-xxhdpi.png" platform="android" qualifier="port-xxhdpi" />
 	<splash src="res/screen/android/splash-port-xxxhdpi.png" platform="android" qualifier="xxxhdpi" />
 	<splash src="splash.png" />
+	<preference name="SplashScreenDelay" value="3000" />
 
+	<!-- icons -->
 	<icon src="res/icon/android/ldpi.png" platform="android" qualifier="ldpi" />
 	<icon src="res/icon/android/mdpi.png" platform="android" qualifier="mdpi" />
 	<icon src="res/icon/android/hdpi.png" platform="android" qualifier="hdpi" />
