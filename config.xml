@@ -16,7 +16,7 @@
 	<platform name="android">
 
 	<!-- preference -->
-
+	<preference name="orientation" value="portrait">
 	<!-- plugins -->
 	<plugin name="cordova-plugin-splashscreen" spec="~5.0.2" source="npm"/>
 
