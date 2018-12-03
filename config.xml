@@ -25,7 +25,7 @@
 
 	<!-- preference -->
 	<preference name="orientation" value="portrait">
-	<preference name="SplashScreenDelay" value="3000" />
+	<preference name="SplashScreenDelay" value="5000" />
 
 	<!-- plugins -->
 	<plugin name="cordova-plugin-splashscreen" spec="*" source="npm"/>
