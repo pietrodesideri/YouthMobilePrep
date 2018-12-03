@@ -15,11 +15,6 @@
 	<access origin="*" />
 	<platform name="android">
 
-	<!-- preference -->
-	<preference name="orientation" value="portrait">
-	<!-- plugins -->
-	<plugin name="cordova-plugin-splashscreen" spec="~5.0.2" source="npm"/>
-
 	<!-- splash screen -->
 	<splash src="res/screen/android/splash-port-ldpi.png" platform="android" qualifier="ldpi" />
 	<splash src="res/screen/android/splash-port-mdpi.png" platform="android" qualifier="mdpi" />
@@ -28,7 +23,14 @@
 	<splash src="res/screen/android/splash-port-xxhdpi.png" platform="android" qualifier="port-xxhdpi" />
 	<splash src="res/screen/android/splash-port-xxxhdpi.png" platform="android" qualifier="xxxhdpi" />
 	<splash src="splash.png" />
+
+	<!-- preference -->
+	<preference name="orientation" value="portrait">
 	<preference name="SplashScreenDelay" value="3000" />
+
+	<!-- plugins -->
+	<plugin name="cordova-plugin-splashscreen" spec="*" source="npm"/>
+
 
 	<!-- icons -->
 	<icon src="res/icon/android/ldpi.png" platform="android" qualifier="ldpi" />
