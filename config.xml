@@ -14,10 +14,12 @@
 	</author>
 	<platform name="android"/>
 	<!-- preferences -->
-	<preference name="SplashScreenDelay" value="5000"/>
+	<content src="index.html"/>
+	<preference name="SplashScreen" value="screen"/>
+	<preference name="SplashScreenDelay" value="10000"/>
 	<preference name="SplashMaintainAspectRatio" value="true"/>
 	<preference name="SplashShowOnlyFirstTime" value="false" />
-	<preference name="SplashScreenSpinnerColor" value="#2631c9"/>
+	<!-- <preference name="SplashScreenSpinnerColor" value="#2631c9"/> -->
 	<preference name="android-minSdkVersion" value="19"/>
 	<preference name="android-maxSdkVersion" value="28"/>
 	<preference name="android-targetSdkVersion" value="21"/>
@@ -27,20 +29,20 @@
 	<plugin name="cordova-plugin-splashscreen" spec="~5.0.2" source="npm"/>
 
 	<!-- splash screen -->
-	<splash src="res/screen/android/splash-port-ldpi.png" platform="android" density="port-ldpi"/>
-	<splash src="res/screen/android/splash-port-mdpi.png" platform="android" density="port-mdpi"/>
-	<splash src="res/screen/android/splash-port-hdpi.png" platform="android" density="port-hdpi"/>
-	<splash src="res/screen/android/splash-port-xhdpi.png" platform="android" density="port-xhdpi"/>
-	<splash src="res/screen/android/splash-port-xxhdpi.png" platform="android" density="port-xxhdpi"/>
-	<splash src="res/screen/android/splash-port-xxxhdpi.png" platform="android" density="port-xxxhdpi"/>
+	<splash src="res/screen/android/splash-port-ldpi.png" platform="android" qualifier="port-ldpi"/>
+	<splash src="res/screen/android/splash-port-mdpi.png" platform="android" qualifier="port-mdpi"/>
+	<splash src="res/screen/android/splash-port-hdpi.png" platform="android" qualifier="port-hdpi"/>
+	<splash src="res/screen/android/splash-port-xhdpi.png" platform="android" qualifier="port-xhdpi"/>
+	<splash src="res/screen/android/splash-port-xxhdpi.png" platform="android" qualifier="port-xxhdpi"/>
+	<splash src="res/screen/android/splash-port-xxxhdpi.png" platform="android" qualifier="port-xxxhdpi"/>
 	<splash src="splash.png"/>
 	
 	<!-- icons -->
-	<icon src="res/icon/android/ldpi.png" platform="android" density="ldpi"/>
-	<icon src="res/icon/android/mdpi.png" platform="android" density="mdpi"/>
-	<icon src="res/icon/android/hdpi.png" platform="android" density="hdpi"/>
-	<icon src="res/icon/android/xhdpi.png" platform="android" density="xhdpi"/>
-	<icon src="res/icon/android/xxhdpi.png" platform="android" density="xxhdpi"/>
-	<icon src="res/icon/android/xxxhdpi.png" platform="android" density="xxxhdpi"/>
+	<icon src="res/icon/android/ldpi.png" platform="android" qualifier="ldpi"/>
+	<icon src="res/icon/android/mdpi.png" platform="android" qualifier="mdpi"/>
+	<icon src="res/icon/android/hdpi.png" platform="android" qualifier="hdpi"/>
+	<icon src="res/icon/android/xhdpi.png" platform="android" qualifier="xhdpi"/>
+	<icon src="res/icon/android/xxhdpi.png" platform="android" qualifier="xxhdpi"/>
+	<icon src="res/icon/android/xxxhdpi.png" platform="android" qualifier="xxxhdpi"/>
 	<icon src="icon.png"/>
 </widget>
