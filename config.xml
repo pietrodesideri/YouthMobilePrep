@@ -13,6 +13,7 @@
 		Jirah Hamza Ibrahim
 	</author>
 	<platform name="android"/>
+	<allow-navigation href="*"/>
 	<!-- preferences -->
 	<content src="index.html"/>
 	<preference name="SplashScreen" value="screen"/>
@@ -24,8 +25,10 @@
 	<preference name="android-targetSdkVersion" value="21"/>
 	<preference name="orientation" value="portrait"/>
 
-	<!-- plugin -->
+	<!-- plugins -->
 	<plugin name="cordova-plugin-splashscreen" spec="~5.0.2" source="npm"/>
+	<plugin name="cordova-plugin-whitelist" spec="~1.3.3" source="npm"/>
+
 
 	<!-- splash screen -->
 	<splash src="res/screen/android/splash-port-ldpi.png" platform="android" qualifier="port-ldpi"/>
