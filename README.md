@@ -37,3 +37,10 @@ Although the primary objective of this application is to give users theoretical 
 
    *  [Brackets](http://brackets.io/)
 
+  
+## Version of This Mobile Application
+
+This is the first version of the *YouthMobile Prep*, and efforts would be made to continue to improve on it, to ensure better user experience. 
+
+You can contact developer in the about section to report any issue you experience in the use of the application.
+
