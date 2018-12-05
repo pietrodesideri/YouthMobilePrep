@@ -1,3 +1,4 @@
+//set questions variables
 var currentQuestion = 0;
 var score = 0;
 var totalQuestions = questions.length;
