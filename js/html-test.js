@@ -1,3 +1,4 @@
+//JSON DATA FOR HTML QUIZ
 var questions = [
   {
     "question": "Hypertext Markup Language is also called",
