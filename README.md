@@ -11,7 +11,7 @@
 *Christian ISHIMWE (Kigali, Rwanda)*
 
 ## The Mobile Application
- The YouthMobile Prep is a mobile application targeted at aspiring youthmobile students to primarily have a theoretical grasp of the basics of web languages (HTML, CSS and JavaScript) and perhaps, put into practice the theoretical knowledge.
+ The YouthMobile Prep is a mobile application developed to help aspiring youthmobile students to primarily have a theoretical grasp of the basics of web languages (HTML, CSS and JavaScript) and if need be, put into practice the theoretical knowledge.
 
  The application requires no internet connection to access its core functionalities. However, users would require internet connection on their device to access external resources.
 
