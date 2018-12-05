@@ -2,17 +2,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- content security policy meta tag -->
   <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Youthmobile Prep</title>
+  <!-- link to cordova javascript library -->
   <script type="text/javascript" src="cordova.js"></script>
+  <!-- link to css local files -->
   <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="../css/collapsible.css">
   <link rel="stylesheet" href="../css/faqs.css">
 </head>
 <body>
+  <!-- navigation menu begins -->
   <nav class="navbar">
     <span class="open-slide">
       <a href="#" onclick="openSlideMenu()">
@@ -25,52 +29,57 @@
     </span>
     <h1><span>YOUTH</span><span>MOBILE</span>    <span>PREP</span></h1>
   </nav>
-  <!-- side-nav -->
-  <div id="side-menu" class="side-nav">
-      <a href="../index.html"><img src="../images/home-menu.png"> <span>Home</span></a>
-      <hr>
-      <a href="about.html"><img src="../images/about-menu.png"> <span>About</span></a>
-      <hr>
-      <a href="html-lesson.html"><img src="../images/html-menu.png"> <span>Learn HTML5</span></a>
-      <hr>
-      <a href="html-test.html"><img src="../images/html-menu.png"> <span>HTML5 Test</span></a>
-      <hr>
-      <a href="css-lesson.html"><img src="../images/css3-menu.png"> <span>Learn CSS3</span></a>
-      <hr>
-      <a href="css-test.html"><img src="../images/css3-menu.png"> <span>CSS3 Test</span></a>
-      <hr>
-      <a href="javascript-lesson.html"><img src="../images/javascript-menu.png"> <span>Learn JavaScript</span></a>
-      <hr>
-      <a href="javascript-test.html"><img src="../images/javascript-menu.png"> <span>JavaScript Test</span></a>
-      <hr>
-      <a href="faqs.html"><img src="../images/faqs-menu.png"> <span>FAQs</span></a>
-      <hr>
-    </div>
+  <!-- navigation menu ends -->
 
+  <!-- slide menu begins -->
+  <div id="side-menu" class="side-nav">
+    <a href="../index.html"><img src="../images/home-menu.png"> <span>Home</span></a>
+    <hr>
+    <a href="about.html"><img src="../images/about-menu.png"> <span>About</span></a>
+    <hr>
+    <a href="html-lesson.html"><img src="../images/html-menu.png"> <span>Learn HTML5</span></a>
+    <hr>
+    <a href="html-test.html"><img src="../images/html-menu.png"> <span>HTML5 Test</span></a>
+    <hr>
+    <a href="css-lesson.html"><img src="../images/css3-menu.png"> <span>Learn CSS3</span></a>
+    <hr>
+    <a href="css-test.html"><img src="../images/css3-menu.png"> <span>CSS3 Test</span></a>
+    <hr>
+    <a href="javascript-lesson.html"><img src="../images/javascript-menu.png"> <span>Learn JavaScript</span></a>
+    <hr>
+    <a href="javascript-test.html"><img src="../images/javascript-menu.png"> <span>JavaScript Test</span></a>
+    <hr>
+    <a href="faqs.html"><img src="../images/faqs-menu.png"> <span>FAQs</span></a>
+    <hr>
+  </div>
+  <!-- slide menu ends -->
+
+  <!--main content begins  -->
   <div id="main" class="btn-close" onclick="closeSlideMenu()">
-    <h2>FREQUENTLY ASKED QUESTIONS</h2>
     <button class="collapsible">What Do I start Learning, HTML, CSS or JavaScript?</button>
     <div class="content">
       <p>For beginners, it is important to start by learning HTML before getting into CSS and then JavaScript. While learning how to write some code, it is also important to be patient, as impatience is the reason why some learners quit thinking programming is not their calling. It is not secret that even experienced developers sometimes spend days trying to debug their code, but because of patience, they would usually find a solution.</p>
     </div>
+
     <button class="collapsible">What Do I need to know to Start learning?</button>
     <div class="content">
-      <p>Like I mentioned in the about page, it would be in your best interest to learn computer basics such as powering on/off a computer, working with folders and files, knowing some basic computer keyboard shortcuts. Another important skill that you need is research to be able to find solutions by surfing the internet and reading programming books. As a trainee at the UNESCO-Abuja Youthmobile, I saw how some trainees struggle to learn because of their lack of basic computer skills and inability to research despite the huge amount of time the facilitators invested in guiding them. This does not only apply to those willing to join the Youthmobile training, but also anyone interested in learning computer programming. Again, all of these require some patience, dedication, passion and hardwork to do.</p>
+      <p>Like I mentioned in the about page, it would be in your best interest to learn computer basics such as powering on/off a computer, working with folders and files, knowing some basic computer keyboard shortcuts. Another important skill that you need is research which would be useful when you need to find solutions to challenges. As a trainee at the UNESCO-Abuja Youthmobile, I saw how some of my colleagues struggled to learn because of their lack of basic computer skills and unwillingness to research. This does not only apply to those willing to join the Youthmobile training, but also anyone interested in learning computer programming. Again, all of these require some patience, dedication, passion and hardwork to do.</p>
     </div>
+
     <button class="collapsible">How Do I get Started with Writing Some Code?</button>
     <div class="content">
-      <p>You can visit any of the urls below to get started with learning how to write some code</p>
-      <!-- add youtube urls of some video tutorials -->
-      <ol>
-        <li>https://www.w3schools.com/</li>
-        <li>https://www.tutorialspoint.com/</li>
-        <li>https://www.codecademy.com/learn/learn-html</li>
+      <p>You can visit any of the links below to get started with learning how to write some code. You will also need a computer with a code editor installed on it.</p>
+      <ol type="A">
+        <li><a href="https://www.w3schools.com/">&#x1F517;w3schools</a></li>
+        <li><a href="https://www.tutorialspoint.com/">&#x1F517;Tutorials Point</a></li>
+        <li><a href="https://www.codecademy.com/learn/learn-html">&#x1F517;Code Academy</a></li>
       </ol>
     </div> 
-    <button class="collapsible">What is a Text Editor/IDE?</button>
+
+    <button class="collapsible">What is a Code/Text Editor/IDE?</button>
     <div class="content">
-      <p>A text editor or IDE(Integrated Development Environment) is a software for writing codes. In no particular order, some of these IDEs include but not limited to;</p>
-      <ol>
+      <p>A text editor or IDE(Integrated Development Environment) is a software for writing codes. In no particular order, some of the code editors include but not limited to;</p>
+      <ol type="A">
         <li>Atom</li>
         <li>Visual Studio Code</li>
         <li>Sublime Text</li>
@@ -80,10 +89,12 @@
       </ol>
       <p>These are by far the most widely used text editors by most developers. It is a matter of preference what text editor you used but open the next question to see what IDE I recommed for you.</p>
     </div>
+
     <button class="collapsible">What Text Editor Do I use?</button>
     <div class="content">
-      <p>As mentioned in the previous question, what code editor you use is a matter of preference. However, as a beginner with zero knowldge in mobile/web applications development, I would recommed you use lightweight IDEs such as Sublime Text and Notepad or Notepad++. Although you may use same text editor as the one used by a tutor you are coding along with. That way, you are sure of working in the same environment as the tutor.</p>
+      <p>As mentioned in the previous question, what code editor you use is a matter of preference. However, as a beginner with zero knowldge in mobile/web applications development,I would recommed you use lightweight code editor such as Sublime Text and Notepad or Notepad++. Although you may use same text editor as the one used by a tutor you are coding along with. That way, you are sure of working in the same environment as the tutor.</p>
     </div>
+
     <button class="collapsible">Where do I get these IDEs?</button>
     <div class="content">
       <p>You can visit any of the links below to download an Code editor/IDE of your choice.</p>
