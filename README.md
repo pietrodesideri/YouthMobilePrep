@@ -16,7 +16,7 @@
  The application requires no internet connection to access its core functionalities. However, users would require internet connection on their device to access external resources.
 
 ## Installing The Application on Mobile Device
-  For now, the application is installable on Android devices only. The apk file is available in this repository for download. 
+  For now, the application is installable on Android devices only. The apk file is available in this repository for download and installation. 
 
   The IOS version would be available later.
 
