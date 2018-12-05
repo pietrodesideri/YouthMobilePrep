@@ -1,14 +1,14 @@
 # YouthMobile Prep
 
 ## Author
-*Jirah Hamza Ibrahim*
+*Jirah Hamza Ibrahim (Abuja, Nigeria)*
 
 ## Contributors
-*Sangwa Sandrine*
+*Sangwa Sandrine (Kigali, Rwanda)*
 
-*Gaelle Girishema*
+*Gaelle Girishema (Kigali, Rwanda)*
 
-*Christian ISHIMWE*
+*Christian ISHIMWE (Kigali, Rwanda)*
 
 ## The Mobile Application
  The YouthMobile Prep is a mobile application targeted at aspiring youthmobile students to primarily have a theoretical grasp of the basics of web languages (HTML, CSS and JavaScript) and perhaps, put into practice the theoretical knowledge.
