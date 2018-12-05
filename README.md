@@ -20,7 +20,7 @@
 
   The IOS version would be available later.
 
-# Requirements to Write codes
+# Requirements to Write some codes
 Although the primary objective of this application is to give users theoretical knowledge; however, a user requires the following to write some codes;
 
 1. A desktop/laptop computer with atleast 1GB RAM, 1OGB of Hard Disk Space
