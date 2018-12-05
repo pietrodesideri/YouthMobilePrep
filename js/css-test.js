@@ -1,3 +1,4 @@
+//JSON DATA FOR CSS QUIZ
 var questions = [
   {
     "question": "In how many ways do we write CSS",
