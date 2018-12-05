@@ -2,17 +2,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Content security policy meta tag -->
   <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Youthmobile Prep</title>
+  <!-- link to cordova Javascript library -->
   <script type="text/javascript" src="cordova.js"></script>
+  <!-- links to css local files -->
   <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="../css/collapsible.css">
   <link rel="stylesheet" href="../css/css-lesson.css">
 </head>
 <body>
+  <!-- navigation menu begins -->
   <nav class="navbar">
     <span class="open-slide">
       <a href="#" onclick="openSlideMenu()">
@@ -25,105 +29,122 @@
     </span>
     <h1><span>YOUTH</span><span>MOBILE</span>    <span>PREP</span></h1>
   </nav>
-  <!-- side-nav -->
+  <!-- navigation menu ends -->
+
+  <!-- slide menu begins -->
   <div id="side-menu" class="side-nav">
-      <a href="../index.html"><img src="../images/home-menu.png"> <span>Home</span></a>
-      <hr>
-      <a href="about.html"><img src="../images/about-menu.png"> <span>About</span></a>
-      <hr>
-      <a href="html-lesson.html"><img src="../images/html-menu.png"> <span>Learn HTML5</span></a>
-      <hr>
-      <a href="html-test.html"><img src="../images/html-menu.png"> <span>HTML5 Test</span></a>
-      <hr>
-      <a href="css-lesson.html"><img src="../images/css3-menu.png"> <span>Learn CSS3</span></a>
-      <hr>
-      <a href="css-test.html"><img src="../images/css3-menu.png"> <span>CSS3 Test</span></a>
-      <hr>
-      <a href="javascript-lesson.html"><img src="../images/javascript-menu.png"> <span>Learn JavaScript</span></a>
-      <hr>
-      <!-- <a href="cssvideo.html" target="_blank"><img src="../images/video.png" > <span>Learn with videos</span></a>
-      <hr> -->
-      <a href="javascript-test.html"><img src="../images/javascript-menu.png"> <span>JavaScript Test</span></a>
-      <hr>
-      <a href="faqs.html"><img src="../images/faqs-menu.png"> <span>FAQs</span></a>
-      <hr>
-    </div>
+    <a href="../index.html"><img src="../images/home-menu.png"> <span>Home</span></a>
+    <hr>
+    <a href="about.html"><img src="../images/about-menu.png"> <span>About</span></a>
+    <hr>
+    <a href="html-lesson.html"><img src="../images/html-menu.png"> <span>Learn HTML5</span></a>
+    <hr>
+    <a href="html-test.html"><img src="../images/html-menu.png"> <span>HTML5 Test</span></a>
+    <hr>
+    <a href="css-lesson.html"><img src="../images/css3-menu.png"> <span>Learn CSS3</span></a>
+    <hr>
+    <a href="css-test.html"><img src="../images/css3-menu.png"> <span>CSS3 Test</span></a>
+    <hr>
+    <a href="javascript-lesson.html"><img src="../images/javascript-menu.png"> <span>Learn JavaScript</span></a>
+    <hr>
+    <!-- <a href="cssvideo.html" target="_blank"><img src="../images/video.png" > <span>Learn with videos</span></a>
+    <hr> -->
+    <a href="javascript-test.html"><img src="../images/javascript-menu.png"> <span>JavaScript Test</span></a>
+    <hr>
+    <a href="faqs.html"><img src="../images/faqs-menu.png"> <span>FAQs</span></a>
+    <hr>
+  </div>
 
   <div id="main" class="btn-close" onclick="closeSlideMenu()">
-    <h2>CSS LESSON</h2>
+    <!-- <h2>CSS LESSON</h2> -->
     <div class="css-tut">
-    <button class="collapsible">Meaning of CSS</button>
-    <div class="content">
-      <p>CSS stands for Cascading Style Sheet. While HTML builds the structure of web pages, CSS add styles to the structure/skeleton of the web pages. In other words, CSS is used to adds beauty and design to a web page. Think of the beautiful background color and other lovely designs in this application; that is the effect of CSS.</p>
-    </div></div>
-    <div class="css-tut">
-    <button class="collapsible">Where to Write CSS</button>
-    <div class="content">
-      <p>CSS can written in of the following three ways with each one having its advantages and disadavantages.</p>
-      <ol>
-        <li>Inline styling</li>
-        <li>Embedded styling</li>
-        <li>External styling</li>
-      </ol>
-    </div></div>
-    <div class="css-tut">
-    <button class="collapsible">Inline CSS</button>
-    <div class="content">
-      <p>This is used to style HTML elements directly. This is done by adding style attribute to the opening tag of an HTML element and applying the desired styles. This is not the best way to style especially when you want to apply same style to multiple web pages, but in some cases it is necessary to use.</p>
-      <!-- Image Code snippet inline styling  -->
-      <img src="../images/inline-styling.png">
-    </div></div>
-    <div class="css-tut">
-    <button class="collapsible">Embedded CSS</button>
-    <div class="content">
-      <p>Writing your style rules within the head tag of the HTML document structure is called embedded styling. This is often used to style a single web page and especially where the styles rules are few. All you have to add within the head after the title tag, is add the style tag and write your css rules.</p>
-      <!-- Image Code snippet of embedded styling  -->
-      <img src="../images/embedded-styling.png">
-    </div></div>
-    <div class="css-tut">
-    <button class="collapsible">External CSS</button>
-    <div class="content">
-      <p>For seperation of concern, it is highly recommeded to write css in an external style sheet. To do this, create a CSS file in with the .css name extension, example style.css. And in the css file, you write all style rules. The advantage of this is that you can write single style from a css file which would apply to multiple web pages. To wrap it up, you also require to link the css file to the HTML document(s) you want to style. This is done using the link tag as shown in the figure below.</p>
-      <!-- image code snippet of link to css file -->
-      <img src="../images/link-to-css-file.png">
-    </div></div>
-    <div class="css-tut">
-    <button class="collapsible">Style Rule Syntax</button>
-    <div class="content">
-      <p>The CSS rule is made up of a declaration block consisting of a;</p>
-      <ol>
-        <li>Selector</li>
-        <li>Property</li>
-        <li>Value</li>
-      </ol>
-      <!-- image code snippet of css declaration block -->
-      <img src="../images/css-declaration-block.png">
-    </div></div>
-    <div class="css-tut">
-    <button class="collapsible">CSS Selectors</button>
-    <div class="content">
-      <p>The following are example of some CSS selectors</p>
-      <ol>
-        <li>ID Selector</li>
-        <li>Class Selector</li>
-        <li>Selecting by Tag Name</li>
-        <li>Descendant Selector</li>
-      </ol>
-    </div></div>
-    <div class="css-tut">
-    <button class="collapsible">How to Apply CSS Selectors</button>
-    <div class="content">
-      <p>Create HTML element</p>
-      <!-- image code snippet of created anchor  tags -->
-      <img src="../images/created-anchor-tags.png">
-      <p>Define element by assigning a selector to it</p>
-      <!-- image code snippet of assigning class to anchor tags -->
-      <img src="../images/defining-anchor-tags.png">
-      <p>Calling the Selector in CSS file</p>
-      <!-- image code snippet of assigning applying styles to anchor tags -->
-      <img src="../images/calling-anchor-tags.png">
+      <button class="collapsible">Meaning of CSS</button>
+      <div class="content">
+        <p>CSS stands for Cascading Style Sheet. While HTML builds the structure of web pages, CSS adds presentation to the structure/skeleton of the web pages. In other words, CSS is used to adds beauty and design to a web page. The beautiful background color and other lovely designs in this application; is as a result of CSS.</p>
+      </div>
     </div>
-  </div></div>
+
+    <div class="css-tut">
+      <button class="collapsible">Where to Write CSS</button>
+      <div class="content">
+        <p>CSS can be added to web pages in the following three ways</p>
+        <ol>
+          <li>Inline styling</li>
+          <li>Embedded styling</li>
+          <li>External styling</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="css-tut">
+      <button class="collapsible">Inline CSS</button>
+      <div class="content">
+        <p>This is used to style HTML elements directly. This is done by adding style attribute to the opening tag of an HTML element and applying the desired styles. This is not the best way to style especially when you want to apply same style to multiple web pages, but in some cases it is necessary to use.</p>
+        <!-- Image Code snippet of inline styling  -->
+        <img src="../images/inline-styling.png">
+      </div>
+    </div>
+
+    <div class="css-tut">
+      <button class="collapsible">Embedded CSS</button>
+      <div class="content">
+        <p>Writing your style rules within the head tag of the HTML document structure is called embedded styling. This is often used to style a single web page and especially where the style rules apply to a single page only. All you have to add within the head tag after the title tag, is style tag and write your css rules as shown below</p>
+        <!-- Image Code snippet of embedded styling  -->
+        <img src="../images/embedded-styling.png">
+      </div>
+    </div>
+
+    <div class="css-tut">
+      <button class="collapsible">External CSS</button>
+      <div class="content">
+        <p>For seperation of concern(HTML, CSS and JavaScript should be written in diferent files),it is highly recommeded to write css in an external style sheet. To do this, create a CSS file in with .css name extension; for example style.css. And in the css file, you write all style rules. The advantage of this is that you can write single style from a css file which would apply to multiple web pages. To make sure that the styles apply to HTML page, you must link the css file to the HTML file(s). This is done using the link tag as shown in the figure below.</p>
+        <!-- image code snippet of link to css file -->
+        <img src="../images/link-to-css-file.png">
+      </div>
+    </div>
+
+    <div class="css-tut">
+      <button class="collapsible">Style Rule Syntax</button>
+      <div class="content">
+        <p>The CSS rule is made up of a declaration block consisting of a;</p>
+        <ol type="A">
+          <li>Selector</li>
+          <li>Property</li>
+          <li>Value</li>
+        </ol>
+        <!-- image code snippet of css declaration block -->
+        <img src="../images/css-declaration-block.png">
+      </div>
+    </div>
+
+    <div class="css-tut">
+      <button class="collapsible">CSS Selectors</button>
+      <div class="content">
+        <p>The following are example of some CSS selectors</p>
+        <ol type="A">
+          <li>ID Selector</li>
+          <li>Class Selector</li>
+          <li>Selecting by Tag Name</li>
+          <li>Descendant Selector</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="css-tut">
+      <button class="collapsible">How to Apply CSS Selectors</button>
+      <div class="content">
+        <p>Create HTML element</p>
+        <!-- image code snippet of created anchor  tags -->
+        <img src="../images/created-anchor-tags.png">
+        <p>Define element by assigning a selector to it</p>
+        <!-- image code snippet of assigning class to anchor tags -->
+        <img src="../images/defining-anchor-tags.png">
+        <p>Calling the Selector in CSS file</p>
+        <!-- image code snippet of assigning applying styles to anchor tags -->
+        <img src="../images/calling-anchor-tags.png">
+      </div>
+      </div>
+  </div>
   <script src="../js/main.js"></script>
   <script src="../js/collapsible.js"></script>
 </body>
