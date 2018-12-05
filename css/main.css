@@ -134,7 +134,8 @@ body {
 footer {
   background: linear-gradient(to top,  #3b5998, skyblue);
 }
-/* MEDIA QUERY */
+
+/* MEDIA QUERY/RESPONSIVE DESIGN */
 /* 320 device width */
 @media only screen and (max-width: 320px)  {
   .navbar h1 {
