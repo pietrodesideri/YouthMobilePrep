@@ -4,8 +4,8 @@
 *Jirah Hamza Ibrahim*
 
 ## Contributors
-*Sangwa Sandrine*
-*Gaelle Girishema*
+*Sangwa Sandrine,*
+*Gaelle Girishema,*
 *Christian ISHIMWE*
 
 ## The Mobile Application
