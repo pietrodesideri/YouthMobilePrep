@@ -29,7 +29,7 @@
   margin-left: 5px;
 }
 
-/* MEDIA QUERY */
+/* RESPONSIVE DESIGN/MEDIA QUERY */
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
   h2, li, p {
     font-size: 2.5em;
