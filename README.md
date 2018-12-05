@@ -22,8 +22,8 @@
 
 # Requirements to Write codes
 Although the primary objective of this application is to give users theoretical knowledge; however, a user requires the following to write some codes;
-* A desktop/laptop computer with atleast 1GB RAM, 1OGB of Hard Disk Space
-* Install any of the following code/text editor on your computer
+1. A desktop/laptop computer with atleast 1GB RAM, 1OGB of Hard Disk Space
+2. Install any of the following code/text editor on your computer
    * [Sublime Text](https://www.sublimetext.com/3)
    * [Notepad++](https://notepad-plus-plus.org/download/v7.6.html)
    * [Visual Studio Code](https://code.visualstudio.com/)
