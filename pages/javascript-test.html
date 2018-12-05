@@ -2,17 +2,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- content security policy meta tag -->
   <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Youthmobile Prep</title>
+  <!-- link to cordova javascript library -->
   <script type="text/javascript" src="cordova.js"></script>
+  <!-- link to css local files -->
   <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="../css/collapsible.css">
   <link rel="stylesheet" href="../css/quiz-app.css">
 </head>
 <body>
+  <!-- navigation menu begins -->
   <nav class="navbar">
     <span class="open-slide">
       <a href="#" onclick="openSlideMenu()">
@@ -25,7 +29,9 @@
     </span>
     <h1><span>YOUTH</span><span>MOBILE</span>    <span>PREP</span></h1>
   </nav>
-  <!-- side-nav -->
+  <!-- navigation menu ends -->
+
+  <!-- slide menu begins -->
   <div id="side-menu" class="side-nav">
     <a href="../index.html"><img src="../images/home-menu.png"> <span>Home</span></a>
     <hr>
@@ -46,7 +52,9 @@
     <a href="faqs.html"><img src="../images/faqs-menu.png"> <span>FAQs</span></a>
     <hr>
   </div>
+  <!-- slide menu ends -->
 
+  <!-- quiz section begins -->
   <div id="main" class="btn-close" onclick="closeSlideMenu()">
     <h2>Test Your Knowledge</h2>
     <button class="collapsible">Get Started</button>
@@ -62,6 +70,8 @@
       <div id="result" class="container result" style="display: none;"></div>
     </div>
   </div>
+  <!-- quiz section ends -->
+  
   <script src="../js/main.js"></script>
   <script src="../js/collapsible.js"></script>
   <script src="../js/javascript-test.js"></script>
