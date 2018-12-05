@@ -2,17 +2,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- content security policy meta tag -->
   <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Youthmobile Prep</title>
+  <!-- link to cordova javascript library -->
   <script type="text/javascript" src="cordova.js"></script>
+  <!-- link to css local files -->
   <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="../css/collapsible.css">
   <link rel="stylesheet" href="../css/javascript-lesson.css">
 </head>
 <body>
+  <!-- Navigation menu begins -->
   <nav class="navbar">
     <span class="open-slide">
       <a href="#" onclick="openSlideMenu()">
@@ -25,60 +29,72 @@
     </span>
     <h1><span>YOUTH</span><span>MOBILE</span>    <span>PREP</span></h1>
   </nav>
-  <!-- side-nav -->
+  <!-- navigation menu ends -->
+
+  <!-- slide menu begins -->
   <div id="side-menu" class="side-nav">
-      <a href="../index.html"><img src="../images/home-menu.png"> <span>Home</span></a>
-      <hr>
-      <a href="about.html"><img src="../images/about-menu.png"> <span>About</span></a>
-      <hr>
-      <a href="html-lesson.html"><img src="../images/html-menu.png"> <span>Learn HTML5</span></a>
-      <hr>
-      <a href="html-test.html"><img src="../images/html-menu.png"> <span>HTML5 Test</span></a>
-      <hr>
-      <a href="css-lesson.html"><img src="../images/css3-menu.png"> <span>Learn CSS3</span></a>
-      <hr>
-      <a href="css-test.html"><img src="../images/css3-menu.png"> <span>CSS3 Test</span></a>
-      <hr>
-      <a href="javascript-lesson.html"><img src="../images/javascript-menu.png"> <span>Learn JavaScript</span></a>
-      <hr>
-      <a href="javascript-test.html"><img src="../images/javascript-menu.png"> <span>JavaScript Test</span></a>
-      <hr>
-      <!-- <a href="jsvideo.html"><img src="../images/video.png"> <span>Learn with videos</span></a>
+    <a href="../index.html"><img src="../images/home-menu.png"> <span>Home</span></a>
+    <hr>
+    <a href="about.html"><img src="../images/about-menu.png"> <span>About</span></a>
+    <hr>
+    <a href="html-lesson.html"><img src="../images/html-menu.png"> <span>Learn HTML5</span></a>
+    <hr>
+    <a href="html-test.html"><img src="../images/html-menu.png"> <span>HTML5 Test</span></a>
+    <hr>
+    <a href="css-lesson.html"><img src="../images/css3-menu.png"> <span>Learn CSS3</span></a>
+    <hr>
+    <a href="css-test.html"><img src="../images/css3-menu.png"> <span>CSS3 Test</span></a>
+    <hr>
+    <a href="javascript-lesson.html"><img src="../images/javascript-menu.png"> <span>Learn JavaScript</span></a>
+    <hr>
+    <a href="javascript-test.html"><img src="../images/javascript-menu.png"> <span>JavaScript Test</span></a>
+    <hr>
+    <!-- <a href="jsvideo.html"><img src="../images/video.png"> <span>Learn with videos</span></a>
       <hr> -->
-      <a href="faqs.html"><img src="../images/faqs-menu.png"> <span>FAQs</span></a>
-      <hr>
+    <a href="faqs.html"><img src="../images/faqs-menu.png"> <span>FAQs</span></a>
+    <hr>
+  </div>
+  <!-- slide menu ends -->
+
+  <!-- main content begins -->
+  <div id="main" class="btn-close" onclick="closeSlideMenu()">
+    <div class="css-tut">
+      <button class="collapsible">What is JavaScript?</button>
+      <div class="content">
+        <p>JavaScript is a programming language which adds interactivity to web pages. Applications built with only HTML CSS are usually static meaning that a user is unable to interact with such applications. For instance, the menu that opens/closes when you touch the menu icons is a function of JavaScript. Also, when you take the test in this application, you will get a result instantly all thanks to JavaScript  or what I love to call <em>The Wizard.</em>. It is important to note that JavaScript is not the same as same Java. They are entirely diffrently programming languages. The official name for JavaScript is EcmaScript.</p>
+      </div>
     </div>
 
-  <div id="main" class="btn-close" onclick="closeSlideMenu()">
-    <h2>JAVASCRIPT LESSON</h2>
     <div class="css-tut">
-    <button class="collapsible">What is JavaScript?</button>
-    <div class="content">
-      <p>JavaScript is a programming language which adds interactivity to web pages. Applications built with only HTML CSS are usually static meaning that a user is unable to interact with such applications. For instance, the menu that opens/closes when you touch the hamburger icons is a function of JavaScript. Also, when you take the test in this application, you will get a result instantly all thanks to JavaScript  or what I love to call <em>The Wizard.</em>. It is important to note that JavaScript is not the same as same Java. They are entirely diffrently programming languages. The official name for JavaScript is EcmaScript.</p>
-    </div></div>
+      <button class="collapsible">Writing JavaScript</button>
+      <div class="content">
+        <p>JavaScript can be written in one of the following two ways;</p>
+        <ol type="A">
+          <li>Embedded script within the HTML head or body tags</li>
+          <li>External script in an external script file</li>
+        </ol>
+      </div>
+    </div>
+
     <div class="css-tut">
-    <button class="collapsible">Writing JavaScript</button>
-    <div class="content">
-      <p>JavaScript can be written in on of the following two ways;</p>
-      <ol>
-        <li>Embedded script within the HTML head or body tags</li>
-        <li>External script in an external script file</li>
-      </ol>
-    </div></div>
+      <button class="collapsible">Embedded JavaScript</button>
+      <div class="content">
+        <p>To write JavaScript in the HTML document is called Embedded JavaScript. This can be done by creating the script tag either within the head or the body tags. As you get advance in learning JavaScript, you will learn why it is so.</p>
+        <!-- Image Code snippet of embeddd javascript  -->
+        <img src="../images/embedded-javascript.png">
+      </div>
+    </div>
+
     <div class="css-tut">
-    <button class="collapsible">Embedded JavaScript</button>
-    <div class="content">
-      <p>To write JavaScript in the HTML document is called Embedded JavaScript. This can be done by creating the script tag either within the head or the body tags. As you get advance in learning JavaScript, you will learn why it is so.</p>
-      <!-- Image Code snippet of embeddd javascript  -->
-      <img src="">
-    </div></div>
-    <div class="css-tut">
-    <button class="collapsible">External JavaScript</button>
-    <div class="content">
-      <p>Again, for seperation of concern, it is recommeded to write JavaScript in an external script file. You do this by creating a file with the .js name extension and then linking it to HTML document(s). To define the path to the script file, you will do as seen in the figure below</p>
-      <!-- Image Code snippet of external Javascript  -->
-      <img src="">
-    </div></div>
+      <button class="collapsible">External JavaScript</button>
+      <div class="content">
+        <p>Again, for seperation of concern, it is recommended to write JavaScript in an external script file. You do this by creating a file with the .js name extension and then link it to HTML document(s). To define the path to the script file, you will do as seen in the figure below. We created a file named "script.js" and linked it to the HTML document.</p>
+        <!-- Image Code snippet of external Javascript  -->
+        <img src="../images/link-to-javascript-file.png">
+        <img src="../images/external-javascript.png">
+      </div>
+    </div>
+
     <div class="css-tut">
     <button class="collapsible">JavaScript Data Types</button>
     <div class="content">
