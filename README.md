@@ -27,13 +27,13 @@ Although the primary objective of this application is to give users theoretical 
 
 2. Install any of the following code/text editor on your computer
 
-   * [Sublime Text](https://www.sublimetext.com/3)
+   *  [Sublime Text](https://www.sublimetext.com/3)
 
-   * [Notepad++](https://notepad-plus-plus.org/download/v7.6.html)
+   *  [Notepad++](https://notepad-plus-plus.org/download/v7.6.html)
 
-   * [Visual Studio Code](https://code.visualstudio.com/)
+   *  [Visual Studio Code](https://code.visualstudio.com/)
 
-   * [Atom](https://atom.io/)
+   *  [Atom](https://atom.io/)
 
-   * [Brackets](http://brackets.io/)
+   *  [Brackets](http://brackets.io/)
 
