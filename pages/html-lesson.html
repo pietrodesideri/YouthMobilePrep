@@ -2,17 +2,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- content security policy meta tag -->
   <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Youthmobile Prep</title>
+  <!-- link to cordova javascript library -->
   <script type="text/javascript" src="cordova.js"></script>
+  <!-- links to css local files -->
   <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="../css/collapsible.css">
   <link rel="stylesheet" href="../css/html-lesson.css">
 </head>
 <body>
+  <!-- navigation menu begins -->
   <nav class="navbar">
     <span class="open-slide">
       <a href="#" onclick="openSlideMenu()">
@@ -25,84 +29,99 @@
     </span>
     <h1><span>YOUTH</span><span>MOBILE</span>    <span>PREP</span></h1>
   </nav>
-  <!-- side-nav -->
+  <!-- navigation menu ends -->
+
+  <!-- slide menu begins -->
   <div id="side-menu" class="side-nav">
-      <a href="../index.html"><img src="../images/home-menu.png"> <span>Home</span></a>
-      <hr>
-      <a href="about.html"><img src="../images/about-menu.png"> <span>About</span></a>
-      <hr>
-      <a href="html-lesson.html"><img src="../images/html-menu.png"> <span>Learn HTML5</span></a>
-      <hr>
-      <a href="html-test.html"><img src="../images/html-menu.png"> <span>HTML5 Test</span></a>
-      <hr>
-      <a href="css-lesson.html"><img src="../images/css3-menu.png"> <span>Learn CSS3</span></a>
-      <hr>
-      <a href="css-test.html"><img src="../images/css3-menu.png"> <span>CSS3 Test</span></a>
-      <hr>
-      <a href="javascript-lesson.html"><img src="../images/javascript-menu.png"> <span>Learn JavaScript</span></a>
-      <hr>
-      <a href="javascript-test.html"><img src="../images/javascript-menu.png"> <span>JavaScript Test</span></a>
-      <hr>
-      <!-- <a href="video.html"><img src="../images/video.png"> <span>Learn with video</span></a>
-      <hr> -->
-      <a href="faqs.html"><img src="../images/faqs-menu.png"> <span>FAQs</span></a>
-      <hr>
+    <a href="../index.html"><img src="../images/home-menu.png"> <span>Home</span></a>
+    <hr>
+    <a href="about.html"><img src="../images/about-menu.png"> <span>About</span></a>
+    <hr>
+    <a href="html-lesson.html"><img src="../images/html-menu.png"> <span>Learn HTML5</span></a>
+    <hr>
+    <a href="html-test.html"><img src="../images/html-menu.png"> <span>HTML5 Test</span></a>
+    <hr>
+    <a href="css-lesson.html"><img src="../images/css3-menu.png"> <span>Learn CSS3</span></a>
+    <hr>
+    <a href="css-test.html"><img src="../images/css3-menu.png"> <span>CSS3 Test</span></a>
+    <hr>
+    <a href="javascript-lesson.html"><img src="../images/javascript-menu.png"> <span>Learn JavaScript</span></a>
+    <hr>
+    <a href="javascript-test.html"><img src="../images/javascript-menu.png"> <span>JavaScript Test</span></a>
+    <hr>
+    <!-- <a href="video.html"><img src="../images/video.png"> <span>Learn with video</span></a>
+    <hr> -->
+    <a href="faqs.html"><img src="../images/faqs-menu.png"> <span>FAQs</span></a>
+    <hr>
+  </div>
+  <!-- slide menu ends -->
+
+  <!-- Main content begins -->
+  <div id="main" class="btn-close" onclick="closeSlideMenu()">
+    <div class="css-tut">
+      <button class="collapsible">The meaning of HTML</button>
+      <div class="content">
+        <p>HTML is an acronym for Hypertext Markup Language. It is used to build the structure of web pages. The content that you read now is a product of HTML. The simple analogy I give about HTML is that it is like the skeleton of web pages made up of only texts, and multi-media files with no design. However, all mobile/web applications have HTML elements(which you will learn in subsequent lesson).</p>
+      </div>
     </div>
 
-  <div id="main" class="btn-close" onclick="closeSlideMenu()">
-    <h2>HTML Lesson</h2>
     <div class="css-tut">
-    <button class="collapsible">The meaning of HTML</button>
-    <div class="content">
-      <p>HTML is an acronym for Hypertext Markup Language. It is used to build the structure of web pages. The content that you read now is a product of HTML. The simple analogy I give about HTML is that it is like the skeleton of web pages made up of only texts, and multi-media files with no design. However, all mobile/web applications have HTML elements(which you will learn in subsequent lesson).</p>
-    </div></div>
+      <button class="collapsible">HTML Document Structure</button>
+      <div class="content">
+        <p>This lesson focuses on HTML5 which is an upgrade on HTML4. The HTML Document Structure can be seen in the image below.</p>
+        <!-- image of HTML document structure -->
+        <img src="../images/html-doc-struc.png" >
+        <ol type="A">
+          <li> !DOCTYPE:  a HTML5 declaration which means that the document type is HTML5 and not just HTML</li>
+          <li> html:  a general declaration of html </li>
+          <li> head:  links to CSS files, meta data and sometimes javascript files are put there</li>
+          <li> title:  the title of a HTML document is written here which appears on a browser's tab</li>
+          <li> body:  content of a web page is written here</li>
+        </ol>
+      </div>
+    </div>
+
     <div class="css-tut">
-    <button class="collapsible">HTML Document Structure</button>
-    <div class="content">
-      <p>This lesson focuses on HTML5 which is an upgrade on HTML4. The HTML Document Structure can be seen in the image below.</p>
-      <!-- image of HTML document structure -->
-      <img src="../images/html-doc-struc.png" >
-      <ol>
-        <li> !DOCTYPE:  a HTML5 declaration which means that the document type is HTML5 and not just HTML</li>
-        <li> html:  a general declaration of html </li>
-        <li> head:  links to CSS files, meta data and sometimes javascript files are put there</li>
-        <li> title:  the title of a HTML document is written here which appears on a browser's tab</li>
-        <li> body:  content of a web page is written here</li>
-      </ol>
-    </div></div>
+      <button class="collapsible">HTML Tags</button>
+      <div class="content">
+        <p>All of the subjects in the list of the previous  lesson are called HTML tags. These tags consist of an opening tag/start tag and closing tag/end tag. </p>
+        <!-- opening/closing tag image -->
+        <img src="../images/open-close-tags.png">
+      </div>
+    </div>
+
     <div class="css-tut">
-    <button class="collapsible">HTML Tags</button>
-    <div class="content">
-      <p>All of the subjects in the list of the previous  lesson are called HTML tags. These tags consist of an opening tag/start tag and closing tag/end tag. </p>
-      <!-- opening/closing tag image -->
-      <img src="../images/open-close-tags.png">
-    </div></div>
+      <button class="collapsible">HTML Element</button>
+      <div class="content">
+        <p>An HTML element consist of the following:</p>
+        <ol type="A">
+          <li>Opening Tag/Start Tag</li>
+          <li>Closing Tag/End Tag</li>
+          <li>Content. It is only the content of an HTML element that is displayed in the browser and not the tags</li>
+        </ol>
+        <!-- image of html element -->
+        <img src="../images/html-element.png">
+      </div>
+    </div>
+
     <div class="css-tut">
-    <button class="collapsible">HTML Element</button>
-    <div class="content">
-      <p>An HTML element consist of the following:</p>
-      <ul>
-        <li>Opening Tag/Start Tag</li>
-        <li>Closing Tag/End Tag</li>
-        <li>Content. It is only the content of an HTML element that is displayed in the browser.</li>
-      </ul>
-       <!-- image of html element -->
-       <img src="../images/html-element.png">
-    </div></div>
+      <button class="collapsible">HTML Comment</button>
+      <div class="content">
+        <p>It is a general practice for developers to write comments when building applications as individuals or a group. The essence of the comment is to enable developers or their colleagues to be able to read their codes easily without having to waste time trying to figure out what is where. Also, comments are not displayed in the browser and only the developer sees them. See example in the figure below.</p>
+        <!-- image of HTML Comment -->
+        <img src="../images/html-comment.png">
+      </div>
+    </div>
+
     <div class="css-tut">
-    <button class="collapsible">HTML Comment</button>
-    <div class="content">
-      <p>It is a general practice for developers to write comments when building applications as individuals or group. The essence of the comment is to enable developers or their colleagues to be able to read their codes easily without having to waste time trying to figure out what is where. Also, comments are not displayed in the browser and only the developer sees them. See example in the figure below.</p>
-      <!-- image of HTML Comment -->
-      <img src="">
-    </div></div>
-    <div class="css-tut">
-    <button class="collapsible">Self Closing/Void Tags</button>
-    <div class="content">
-     <p>Some HTML tags have only an opening tag and no closing tag; and they called the self closing/void tags.</p>
-     <!-- image code snippet of self closing tags -->
-     <img src="../images/self-closing-tags.png">
-    </div></div>
+      <button class="collapsible">Self Closing/Void Tags</button>
+      <div class="content">
+        <p>Some HTML tags have only an opening tag and no closing tag; and they called the self closing/void tags.</p>
+        <!-- image code snippet of self closing tags -->
+        <img src="../images/self-closing-tags.png">
+      </div>
+    </div>
+
     <div class="css-tut">
     <button class="collapsible">The Heading Tags</button>
     <div class="content">
