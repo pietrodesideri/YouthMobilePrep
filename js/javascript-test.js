@@ -1,3 +1,4 @@
+//JSON DATA FOR JAVASCRIPT TEST
 var questions = [
   {
     "question": "single line comments are written as..",
