@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- content security policy meta tag -->
   <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Youthmobile Prep</title>
+  <!-- link to cordova javascript library -->
   <script type="text/javascript" src="cordova.js"></script>
+  <!-- link to local css file -->
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <!-- beginning of menu -->
+  <!-- Navigation menu begins -->
   <nav class="navbar">
     <span class="open-slide">
       <a href="#" onclick="openSlideMenu()">
@@ -23,7 +26,9 @@
     </span>
     <h1><span>YOUTH</span><span>MOBILE</span>    <span>PREP</span></h1>
   </nav>
-  <!-- side-nav -->
+  <!-- Navigation menu ends -->
+
+  <!-- Slide menu begins -->
   <div id="side-menu" class="side-nav">
       <a href="index.html"><img src="images/home-menu.png"> <span>Home</span></a>
       <hr>
@@ -48,9 +53,9 @@
       <a href="pages/faqs.html"><img src="images/faqs-menu.png"> <span>FAQs</span></a>
       <hr>
     </div>
-  <!-- end of menu -->
+  <!-- slide menu ends -->
 
-  <!-- content starts here -->
+  <!-- Main content begins -->
   <div id="main" class="btn-close" onclick="closeSlideMenu()">
     <div class="html-tut">
       <h5>LEARN HTML</h5>
@@ -58,12 +63,15 @@
       <p>HTML is an acronym for Hypertext Markup Language. It is used to markup web pages. It is also called a markup language. HTML is used to build the structure of web pages. It is like the skeletal of web pages with only bones and no flesh. Think of it as the bricklayer who erects the structure of a building using blocks, cement, mortar etc. The structure ususally looks unappealing to the eye because it lacks presentation(beauty) and interactivity provided by CSS and Javascript respectively.</p>
       <a href="pages/html-lesson.html">Read More</a>
     </div>
+
+
     <div class="css-tut">
       <h5>LEARN CSS3</h5>
       <div style="text-align: center;"><img src="images/css3.png"></div>
       <p>CSS stands for Cascading Style Sheet which adds presentation to web pages; hence, CSS is a styling language. CSS can best be compared to the mason who plasters the walls of a building, the painter who uses different color combinations to paint the walls of a building, the carpenter who adds ceiling to a building. In short, CSS can be related to all the beautiul things added to a building. In this case, it means CSS adds beauty to the structure (HTML) of web pages.</p>
       <a href="pages/css-lesson.html">Read More</a>
     </div>
+    
     <div class="javascript-tut">
       <h5>LEARN JAVASCRIPT</h5>
       <div style="text-align: center;"><img src="images/javascript.png"></div>
@@ -71,7 +79,7 @@
       <a href="pages/javascript-lesson.html">Read More</a>
     </div>
   </div>
-  <!-- content ends here -->
+  <!-- main content ends -->
   <script src="js/main.js"></script>
 </body>
 </html>
